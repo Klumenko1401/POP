@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+D:\hw\POP\Laba1\Laba1\ada_lr1.gpr
+20240227081932 7fbbdffb828583bdf9a089008b116748
+[BOUND OBJECT FILES]
+D:\hw\POP\Laba1\Laba1\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LD:\hw\POP\Laba1\Laba1\obj\
+-LD:\hw\POP\Laba1\Laba1\obj\
+-LD:/gnat/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+D:/gnat/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+D:/gnat/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads
