@@ -19,13 +19,11 @@ public class Main {
                         break;
                     } else {
                         forks[id].release();
-                        forks[(id + 1) % 5].release();
                     }
                 } else {
                     if (forks[(id + 1) % 5].tryAcquire() && forks[id].tryAcquire()) {
                         break;
                     } else {
-                        forks[id].release();
                         forks[(id + 1) % 5].release();
                     }
                 }
